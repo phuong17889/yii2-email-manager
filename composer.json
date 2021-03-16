@@ -1,0 +1,56 @@
+{
+	"name" : "phuong17889/yii2-email-manager",
+	"description" : "Yii2 Email Manager",
+	"type" : "yii2-extension",
+	"license" : "MIT",
+	"keywords" : [
+		"yii2",
+		"email",
+		"email queue",
+		"email manager",
+		"module",
+		"component"
+	],
+	"authors" : [
+		{
+			"name" : "Valentin Konusov",
+			"email" : "rlng-krsk@yandex.ru",
+			"homepage" : "http://valentinek.ru",
+			"role" : "Developer"
+		},
+		{
+			"name" : "Alexey Samoylov",
+			"email" : "alexey.samoylov@gmail.com",
+			"homepage" : "http://yiiblog.ru",
+			"role" : "Developer"
+		},
+		{
+			"name" : "Le Phuong",
+			"email" : "phuong17889@gmail.com",
+			"role" : "Developer"
+		}
+	],
+	"support" : {
+		"source" : "https://github.com/phuong17889/yii2-email-manager"
+	},
+	"minimum-stability" : "stable",
+	"require" : {
+		"php" : ">=5.6.0",
+		"yiisoft/yii2" : "~2.0.4",
+		"mailgun/mailgun-php" : "^2.0",
+		"yiisoft/yii2-swiftmailer" : "~2.0.0 | ~2.1.0",
+		"yiisoft/yii2-twig" : "2.2.*",
+		"php-http/guzzle6-adapter" : "~1.0",
+		"baibaratsky/yii2-serialized-attributes-behavior" : "~1.1",
+		"navatech/yii2-roxymce" : "^2.0",
+		"phuong17889/yii2-daemon" : "@dev"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"phuong17889\\email\\" : "src/"
+		}
+	},
+	"extra" : {
+		"bootstrap" : "phuong17889\\email\\Bootstrap"
+	}
+}
